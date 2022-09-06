@@ -4,12 +4,12 @@ variable "vault_namespace" {
 }
 
 #set AWS as TF Variables, not ENV in TFC
-variable "AWS_ACCESS_KEY_ID" {
-}
+#variable "AWS_ACCESS_KEY_ID" {
+#}
 
 #set AWS Secret as TF Variables, not ENV in TFC
-variable "AWS_SECRET_ACCESS_KEY" {
-}
+#variable "AWS_SECRET_ACCESS_KEY" {
+#}
 
 #SET HCP SECRETS as TF Variables, not ENV in TFC
 variable "HCP_CLIENT_ID" {

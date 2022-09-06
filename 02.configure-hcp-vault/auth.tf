@@ -18,10 +18,10 @@ resource "vault_jwt_auth_backend_role" "github_actions" {
 
   bound_claims_type = "glob"
   bound_claims = {
-    sub : "repo:hashicorp-dach/tf-vault-packer:ref:refs/*"
+    sub : "repo:Arminmsg/tf-vault:ref:refs/*"
   }
 
-  bound_audiences = ["https://github.com/hashicorp-dach"]
+  bound_audiences = ["https://github.com/Arminmsg"]
 
   user_claim = "workflow"
   role_type  = "jwt"
